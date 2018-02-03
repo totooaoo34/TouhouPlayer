@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">東方聞悅聲</string>
+    <string name="action_settings">情報</string>
+    <string name="title_activity_playing_list">控制</string>
+    <string name="SongName">曲名</string>
+    <string name="SongAth">作者</string>
+    <string name="SongSize">項</string>
+    <string name="title_activity_activity_change_bg">打开</string>
+    <string name="dummy_button">选择您想要的图片-复制到Music文件夹下bg.jpg就可以识别</string>
+    <string name="dummy_content">已下载的图片</string>
+    <string name="title_item_list">Items</string>
+    <string name="title_item_detail">Item Detail</string>
+
+</resources>

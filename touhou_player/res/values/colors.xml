@@ -1,0 +1,10 @@
+<resources>
+
+    <color name="black_overlay">#66000000</color>
+
+    <color name="theme">#EE6da5</color>
+    <color name="me">#A45967</color>
+
+    <color name="seeme">#AD1223</color>
+    <color name="see">#cc435f</color>
+</resources>

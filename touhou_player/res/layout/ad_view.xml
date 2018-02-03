@@ -1,0 +1,102 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal" 
+                android:layout_gravity="right">
+
+            <TextView
+                android:id="@+id/id2"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="項"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/id"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_gravity="right"
+                android:layout_weight="1"
+                android:text="項"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal" 
+                android:layout_gravity="right">
+        <TextView
+            android:id="@+id/name2"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="right"
+            android:layout_weight="1"
+            android:text="曲名"
+            android:textSize="15dp" />
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="right"
+            android:layout_weight="1"
+            android:text="曲名"
+            android:textSize="15dp" />
+</LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal" 
+                android:layout_gravity="right">
+
+        <TextView
+            android:id="@+id/statu2"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="right"
+            android:layout_weight="1"
+            android:text="作者"
+            android:textSize="15dp" >
+            </TextView>
+        <TextView
+            android:id="@+id/statu"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="right"
+            android:layout_weight="1"
+            android:text="作者"
+            android:textSize="15dp" >
+        </TextView>
+    </LinearLayout>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="left" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:src="@drawable/item_icon" />
+    </LinearLayout>
+
+</LinearLayout>
